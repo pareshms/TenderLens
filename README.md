@@ -1,107 +1,36 @@
-# 🔍 TenderLens
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-### AI-Powered Government Tender Intelligence
+## Getting Started
 
-TenderLens uses AI to analyze government tender documents, extract key requirements, evaluate eligibility, identify compliance gaps, and simplify bid/no-bid analysis.
-
-## 🌐 Live Demo
-
-**[Launch TenderLens](https://tenderlens-henna.vercel.app/)**
-
-## ✨ Features
-
-* 📄 **Tender Analysis** — Analyze lengthy tender documents
-* 🎯 **Eligibility Checker** — Identify and evaluate bidder requirements
-* ✅ **Compliance Analysis** — Extract mandatory conditions and documents
-* ⚠️ **Gap Detection** — Highlight potentially missing requirements
-* 🧠 **AI Summarization** — Convert complex tenders into concise insights
-* 📊 **Structured Intelligence** — Organize technical, financial and eligibility requirements
-
-## 🛠️ Tech Stack
-
-* **Frontend:** Next.js, React, TypeScript
-* **UI:** Tailwind CSS
-* **AI:** Large Language Models
-* **Deployment:** Vercel
-
-## 🚀 Getting Started
+First, run the development server:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tenderlens.git
-cd tenderlens
-npm install
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Create a `.env.local` file and add the required API keys.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```env
-AI_API_KEY=your_api_key
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Then open:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-```text
-http://localhost:3000
-```
+## Learn More
 
-## 🏗️ Workflow
+To learn more about Next.js, take a look at the following resources:
 
-```text
-Tender Document
-       ↓
-Document Processing
-       ↓
-AI Analysis
-       ↓
-Requirement Extraction
-       ↓
-Eligibility & Compliance Check
-       ↓
-Actionable Tender Insights
-```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## ⚠️ Disclaimer
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-TenderLens provides AI-generated decision support for informational purposes. AI results may contain errors or omissions. Always verify eligibility, requirements, deadlines, and compliance conditions against the original tender document and official procurement sources before submitting a bid.
+## Deploy on Vercel
 
-## 🔒 Security
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-* Never commit API keys or secrets
-* Use environment variables for credentials
-* Validate uploaded documents
-* Minimize storage of sensitive information
-
-## 🗺️ Roadmap
-
-* [x] Tender document analysis
-* [x] AI summarization
-* [x] Requirement extraction
-* [x] Eligibility analysis
-* [ ] Advanced compliance scoring
-* [ ] Evidence-backed AI analysis
-* [ ] Tender comparison
-* [ ] RAG-based document intelligence
-* [ ] Tender discovery
-* [ ] Multi-language support
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
-See [`LICENSE`](LICENSE) for details.
-
-## 👨‍💻 Author
-
-**Paresh M S**
-**Prajwal G R**
-
-B.Tech — Computer Science Engineering (AI & ML)
-
-Interested in AI, GovTech, software engineering, cybersecurity, IoT and emerging technologies.
-
----
-
-### 🔍 TenderLens
-
-**Turn complex government tenders into actionable intelligence.**
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
